@@ -1,0 +1,73 @@
+body{
+    background-color: #6c6c6c;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+/* barre haut */
+.barre_haut{
+    background: #7d358f;
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titre{
+    font-size: xx-large;
+}
+
+
+
+/* les cartes */
+.carte{
+    margin-top: 30px;
+    border: solid 2px #63324a;
+    margin-left: 25px;
+    padding: 5px;
+    width: 85%;
+    height: auto;
+    background-color: #8a8a8a;
+}
+
+.carte .titre{
+    border-bottom: solid 2px #63324a;
+    padding: 3px;
+}
+
+.carte .texte{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.carte .texte a{
+    text-decoration: none;
+    color: #000000;
+    border: solid 2px #5b1b1b;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #665868;
+}
+
+.carte .texte img{
+    width: 100%;
+}
+
+
+/* les produits */
+.produit{
+    display: flex;
+}
+
+.produit .nom{
+    position: absolute;
+    text-align: left;
+}
+
+.produit .prix{
+    text-align: right;
+    width: 100%;
+}
